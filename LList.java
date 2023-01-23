@@ -5,8 +5,8 @@ class LList {
         ll.add("D");
         ll.add("A");
         ll.add("C");
-        for(String a:ll){System.out.println(a);}
         ll.addFirst("first");
+        for(String a:ll){System.out.println(a);}
         ll.removeFirst();
     }
 }
